@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="RabbitMQ" />
+        <module name="KafkaStreams" />
+        <module name="ActiveMQArtemis" />
+        <module name="ChronicleQueue" />
+        <module name="ZeroMQ" />
+        <module name="Kafka" />
+        <module name="ActiveMQ" />
+        <module name="RocketMQ" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="ActiveMQ" target="1.8" />
+      <module name="ActiveMQArtemis" target="1.8" />
+      <module name="ChronicleQueue" target="1.8" />
+      <module name="Kafka" target="1.8" />
+      <module name="KafkaStreams" target="1.8" />
+      <module name="RabbitMQ" target="1.8" />
+      <module name="RocketMQ" target="1.8" />
+      <module name="ZeroMQ" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="ActiveMQ" options="-parameters" />
+      <module name="ActiveMQArtemis" options="-parameters" />
+      <module name="ChronicleQueue" options="-parameters" />
+      <module name="Kafka" options="-parameters" />
+      <module name="KafkaStreams" options="-parameters" />
+      <module name="RabbitMQ" options="-parameters" />
+      <module name="RocketMQ" options="-parameters" />
+      <module name="ZeroMQ" options="-parameters" />
+    </option>
+  </component>
+</project>
