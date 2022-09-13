@@ -5,14 +5,14 @@ import org.apache.rocketmq.spring.core.RocketMQListener;
 import org.springframework.stereotype.Component;
 
 /**
- * 消息消費者
+ * 排隊消息消費者
  */
-@RocketMQMessageListener(topic = "java1234-rocketmq",consumerGroup ="${rocketmq.consumer.group}" )
+@RocketMQMessageListener(topic = "queue",consumerGroup ="queue-group" )
 @Component
-public class ConsumerService implements RocketMQListener<String> {
+public class QueueConsumerService implements RocketMQListener<String> {
 
     @Override
     public void onMessage(String s) {
-        System.out.println("收到消息內容："+s);
+        System.out.println("Get Message："+s);
     }
 }

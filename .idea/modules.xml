@@ -4,7 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/ActiveMQ/ActiveMQ.iml" filepath="$PROJECT_DIR$/ActiveMQ/ActiveMQ.iml" />
       <module fileurl="file://$PROJECT_DIR$/ActiveMQArtemis/ActiveMQArtemis.iml" filepath="$PROJECT_DIR$/ActiveMQArtemis/ActiveMQArtemis.iml" />
-      <module fileurl="file://$PROJECT_DIR$/demo/ChronicleQueue/ChronicleQueue.iml" filepath="$PROJECT_DIR$/demo/ChronicleQueue/ChronicleQueue.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ChronicleQueue/ChronicleQueue.iml" filepath="$PROJECT_DIR$/ChronicleQueue/ChronicleQueue.iml" />
       <module fileurl="file://$PROJECT_DIR$/Kafka/Kafka.iml" filepath="$PROJECT_DIR$/Kafka/Kafka.iml" />
       <module fileurl="file://$PROJECT_DIR$/KafkaStreams/KafkaStreams.iml" filepath="$PROJECT_DIR$/KafkaStreams/KafkaStreams.iml" />
       <module fileurl="file://$PROJECT_DIR$/RabbitMQ/RabbitMQ.iml" filepath="$PROJECT_DIR$/RabbitMQ/RabbitMQ.iml" />

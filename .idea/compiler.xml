@@ -9,8 +9,8 @@
         <module name="RabbitMQ" />
         <module name="KafkaStreams" />
         <module name="ActiveMQArtemis" />
-        <module name="ChronicleQueue" />
         <module name="ZeroMQ" />
+        <module name="ChronicleQueue" />
         <module name="Kafka" />
         <module name="ActiveMQ" />
         <module name="RocketMQ" />

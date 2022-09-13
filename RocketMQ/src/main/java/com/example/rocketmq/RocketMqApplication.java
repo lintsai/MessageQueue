@@ -8,7 +8,9 @@ import org.springframework.context.ConfigurableApplicationContext;
 public class RocketMqApplication {
     public static void main(String[] args) {
         ConfigurableApplicationContext run = SpringApplication.run(RocketMqApplication.class, args);
-        ProducerService producerService = (ProducerService) run.getBean("producerService");
-        producerService.sendMessage();
+        SimpleProducerService simpleProducerService = (SimpleProducerService) run.getBean("simpleProducerService");
+        simpleProducerService.sendMessage();
+        QueueProducerService queueProducerService = (QueueProducerService) run.getBean("queueProducerService");
+        queueProducerService.sendMessage();
     }
 }

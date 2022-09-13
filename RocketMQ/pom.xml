@@ -26,8 +26,21 @@
             <artifactId>rocketmq-spring-boot-starter</artifactId>
             <version>2.2.2</version>
         </dependency>
+<!--        &lt;!&ndash; https://mvnrepository.com/artifact/org.apache.rocketmq/rocketmq-namesrv &ndash;&gt;-->
+<!--        <dependency>-->
+<!--            <groupId>org.apache.rocketmq</groupId>-->
+<!--            <artifactId>rocketmq-namesrv</artifactId>-->
+<!--            <version>4.9.4</version>-->
+<!--        </dependency>-->
+<!--        &lt;!&ndash; https://mvnrepository.com/artifact/org.apache.rocketmq/rocketmq-broker &ndash;&gt;-->
+<!--        <dependency>-->
+<!--            <groupId>org.apache.rocketmq</groupId>-->
+<!--            <artifactId>rocketmq-broker</artifactId>-->
+<!--            <version>4.9.4</version>-->
+<!--        </dependency>-->
+
     </dependencies>
-    <build>
+     <build>
         <plugins>
             <plugin>
                 <groupId>org.springframework.boot</groupId>
