@@ -1,5 +1,5 @@
 # MessageQueue
-MessageQueue Learn Project
+MessageQueue Sample Project
 
 ## RocketMQ
 1. 架設 name server
